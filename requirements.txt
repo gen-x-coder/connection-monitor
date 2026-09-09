@@ -1,0 +1,2 @@
+paramiko>=3.4,<5
+keyring>=25,<27
