@@ -111,18 +111,3 @@ Gebruik bij voorkeur een afzonderlijke RouterOS-gebruiker met alleen de benodigd
 De tijdstempels worden met milliseconden opgeslagen. Zij geven het moment aan waarop het afzonderlijke pingproces een resultaat teruggeeft. Dat is niet hetzelfde als een meting van het werkelijke fysieke uitvalmoment met millisecondeprecisie. Kleine verschillen kunnen worden veroorzaakt door Windows, procesplanning en netwerkvertraging.
 
 Sommige apparaten en internetdiensten beantwoorden ping beperkt of helemaal niet. Een mislukte ping betekent daarom niet in alle situaties dat normaal netwerkverkeer onmogelijk is.
-
-## Projectbestanden
-
-```text
-mikrotik_connection_monitor.py  Hoofdprogramma
-monitor_icon.ico                Windows-programma-icoon
-requirements.txt                Python-dependencies
-README.md                       Projectdocumentatie
-```
-
-Bestanden met persoonlijke instellingen, logs, RouterOS-hostkeys en virtuele omgevingen zijn opgenomen in `.gitignore`.
-
-## Licentie
-
-Er is nog geen licentie aan dit project toegevoegd. Zonder licentie blijven de gebruiks- en verspreidingsrechten voorbehouden aan de auteursrechthebbende.
